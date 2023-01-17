@@ -8,6 +8,7 @@
 test();
 ausgabeName();
 ausgabeNameParam("Minus");
+ausgabeNameParams("Marinus", "Plus");
 
 // Funktionsrumpf (body) | callee
 // Funktionsdeklaration
@@ -24,9 +25,16 @@ function ausgabeName()
     console.log ("Hallo " + user);
 }
 
-// 2b. Parametrisierung + Datenübergabe von AUSSEN
+// 2b Parametrisierung + Datenübergabe von AUSSEN
 
 function ausgabeNameParam(user)
 {
     console.log ("Hallo " + user);
+}
+
+// 2c Mehrere Parameter
+
+function ausgabeNameParams(firstname, familyname)
+{
+    console.log ("Hallo " + firstname + " " + familyname);
 }
