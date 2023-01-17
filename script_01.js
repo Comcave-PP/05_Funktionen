@@ -6,7 +6,8 @@
 
 // Funktionsaufruf (call)
 test();
-ausgabeName()
+ausgabeName();
+ausgabeNameParam("Minus");
 
 // Funktionsrumpf (body) | callee
 // Funktionsdeklaration
@@ -20,5 +21,12 @@ console.log("Habedere");
 function ausgabeName()
 {
     let user = "Marinus";
+    console.log ("Hallo " + user);
+}
+
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
+
+function ausgabeNameParam(user)
+{
     console.log ("Hallo " + user);
 }
