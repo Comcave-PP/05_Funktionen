@@ -9,6 +9,7 @@ test();
 ausgabeName();
 ausgabeNameParam("Minus");
 ausgabeNameParams("Marinus", "Plus");
+ausgabeNameParams(prompt("Vorname eingeben:"), prompt("Nachname eingeben:"));
 
 // Funktionsrumpf (body) | callee
 // Funktionsdeklaration
